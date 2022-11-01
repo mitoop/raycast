@@ -2,15 +2,19 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Host
+# @raycast.title Prettify JSON
 # @raycast.mode compact
 
 # Optional parameters:
-# @raycast.icon images/host.png
-# @raycast.packageName Host
+# @raycast.icon images/json.png
+# @raycast.packageName json
 
 # Documentation:
+# @raycast.description Prettify json by jq command
 # @raycast.author Mitoop
 # @raycast.authorURL https://github.com/mitoop
 
-/usr/local/bin/code /etc/hosts
+pbpaste | jq . | pbcopy
+
+echo "Clipboard JSON prettified"
+

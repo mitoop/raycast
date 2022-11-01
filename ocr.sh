@@ -6,7 +6,7 @@
 # @raycast.mode compact
 
 # Optional parameters:
-# @raycast.icon 📸
+# @raycast.icon images/ocr.png
 # @raycast.packageName 文字识别
 # @raycast.needsConfirmation false
 
