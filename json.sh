@@ -3,7 +3,7 @@
 # Required parameters:
 # @raycast.schemaVersion 1
 # @raycast.title Prettify JSON
-# @raycast.mode compact
+# @raycast.mode fullOutput
 
 # Optional parameters:
 # @raycast.icon images/json.png
@@ -14,7 +14,7 @@
 # @raycast.author Mitoop
 # @raycast.authorURL https://github.com/mitoop
 
-pbpaste | jq . | pbcopy
+echo `pbpaste | jq . | pbcopy`
 
-echo "Clipboard JSON prettified"
+pbpaste
 
