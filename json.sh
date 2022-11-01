@@ -14,6 +14,10 @@
 # @raycast.author Mitoop
 # @raycast.authorURL https://github.com/mitoop
 
+# See
+# 需要安装 https://github.com/stedolan/jq 命令
+# brew install jq
+
 echo `pbpaste | jq . | pbcopy`
 
 pbpaste
