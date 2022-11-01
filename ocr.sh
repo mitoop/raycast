@@ -6,7 +6,7 @@
 # @raycast.mode compact
 
 # Optional parameters:
-# @raycast.icon 🦋
+# @raycast.icon 📸
 # @raycast.packageName Ocr
 # @raycast.needsConfirmation false
 
@@ -15,5 +15,5 @@
 # @raycast.author Mitoop
 # @raycast.authorURL https://github.com/mitoop
 
-/usr/local/bin/ocr
+/usr/local/bin/ocr -l zh-Hans
 
