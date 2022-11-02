@@ -2,7 +2,7 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Host
+# @raycast.title /etc/host
 # @raycast.mode silent
 
 # Optional parameters:
