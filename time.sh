@@ -8,13 +8,12 @@
 # Optional parameters:
 # @raycast.icon images/time.png
 # @raycast.packageName Unixtime/Date
-# @raycast.argument1 {"type": "text", "placeholder": "time/date"}
 
 # Documentation:
 # @raycast.author Mitoop
 # @raycast.authorURL https://github.com/mitoop
 
-date=${1}
+date="`pbpaste`"
 
 if [[ $date =~ ^[1-9]+$ ]]
 then
