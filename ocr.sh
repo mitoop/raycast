@@ -2,12 +2,12 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title 文字识别
+# @raycast.title OCR it
 # @raycast.mode silent
 
 # Optional parameters:
 # @raycast.icon images/ocr.png
-# @raycast.packageName 文字识别
+# @raycast.packageName mitoop
 # @raycast.needsConfirmation false
 
 # Documentation:
@@ -24,5 +24,5 @@
 # $ ocr -l zh-Hans
 
 
-/usr/local/bin/ocr -l zh-Hans
+/Users/mitoop/Settings/bin/ocr -l zh-Hans
 

@@ -2,17 +2,17 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title 当前时间
+# @raycast.title Current Unix Timestamp - time
 # @raycast.mode compact
 
 # Optional parameters:
 # @raycast.icon images/time.png
-# @raycast.packageName CurrentTime
+# @raycast.packageName mitoop
 
 # Documentation:
 # @raycast.author Mitoop
 # @raycast.authorURL https://github.com/mitoop
 
-echo `date "+%Y-%m-%d %H:%M:%S"` `date "+%s"` | pbcopy
+echo -n $(date +"%s") | pbcopy
 
-pbpaste
+echo "Unix timestamp copied"
