@@ -7,7 +7,7 @@
 # @raycast.packageName Developer Utilities
 
 # Optional parameters:
-# @raycast.icon 💻
+# @raycast.icon images/url.png
 
 # Documentation:
 # @raycast.description Decodes clipboard content url and copies it again.
