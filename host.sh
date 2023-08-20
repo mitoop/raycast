@@ -15,6 +15,6 @@
 
 # See
 # 替代 https://github.com/oldj/SwitchHosts
-# 习惯了 VS Code 的快感
+# 改用 Zed
 
-/usr/local/bin/code /etc/hosts
+/usr/local/bin/zed /etc/hosts
