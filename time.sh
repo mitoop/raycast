@@ -4,10 +4,10 @@
 # @raycast.schemaVersion 1
 # @raycast.title Date/Timestamp Converter - time
 # @raycast.mode compact
+# @raycast.packageName mitoop
 
 # Optional parameters:
 # @raycast.icon images/time.png
-# @raycast.packageName mitoop
 
 # Documentation:
 # @raycast.author Mitoop

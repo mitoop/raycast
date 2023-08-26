@@ -4,7 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Decode URL
 # @raycast.mode silent
-# @raycast.packageName Developer Utilities
+# @raycast.packageName mitoop
 
 # Optional parameters:
 # @raycast.icon images/url.png

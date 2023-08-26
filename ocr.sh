@@ -9,6 +9,7 @@
 # @raycast.icon images/ocr.png
 # @raycast.packageName mitoop
 # @raycast.needsConfirmation false
+# @raycast.packageName mitoop
 
 # Documentation:
 # @raycast.description Optical Character Recognition 文字识别
@@ -22,6 +23,5 @@
 # 中文版 过时的 Intel 芯片: https://files.littlebird.com.au/ocr-XynT9NApdOnkqeCYrkLxJOHcjFpi.zip
 # 直接复制二进制文件到环境变量目录例如 /usr/local/bin
 # $ ocr -l zh-Hans
-
 
 /usr/local/bin/ocr -l zh-Hans

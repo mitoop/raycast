@@ -2,17 +2,16 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Current Unix Timestamp - time
-# @raycast.mode compact
+# @raycast.title script
+# @raycast.mode silent
 # @raycast.packageName mitoop
 
 # Optional parameters:
-# @raycast.icon images/time.png
+# @raycast.icon images/script.png
 
 # Documentation:
 # @raycast.author Mitoop
 # @raycast.authorURL https://github.com/mitoop
+#
 
-echo -n $(date +"%s") | pbcopy
-
-echo "Unix timestamp copied"
+/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl ~/Settings/raycast

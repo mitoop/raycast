@@ -4,6 +4,7 @@
 # @raycast.schemaVersion 1
 # @raycast.title Prettify JSON
 # @raycast.mode fullOutput
+# @raycast.packageName mitoop
 
 # Optional parameters:
 # @raycast.icon images/json.png
