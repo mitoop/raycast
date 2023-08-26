@@ -17,4 +17,6 @@
 # 替代 https://github.com/oldj/SwitchHosts
 # 改用 Zed
 
+# /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /etc/hosts
+
 /usr/local/bin/zed /etc/hosts
